@@ -52,7 +52,7 @@
                             <td>{{$item->nacimiento}}</td>
                             <td>
                                 <form action="{{route('personas.edit',$item->id)}}" method="GET">
-                                    <button class="btn btn-warning">Editar</button>
+                                    <button class="btn btn-danger">Editar</button>
                                 </form>
                             </td>
                             <td>
